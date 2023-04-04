@@ -9,6 +9,7 @@ const UseStateObjects = () => {
      
     const displayPerson = () => {
         setPerson({name: 'john', age: 23, hobby: 'debug'});
+        setPerson({...person, name: 'susan'})
     }
   return (
     <>
